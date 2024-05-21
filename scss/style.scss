@@ -1,0 +1,172 @@
+
+
+$icon-size:50px;
+#header{
+  background: #008000;
+}
+.navbar{
+background: #008000;
+  .nav-item{
+    padding-left:1em;
+
+    .nav-link{
+      text-transform: uppercase;
+      color: #fff;
+      }
+    }
+    .dropdown-menu .dropdown-item{
+      text-transform: uppercase;
+
+    }
+  }
+
+.carousel-item{
+  height: 500px;
+}
+
+.carousel-img-1{
+  background: url(../img/kadambari.jpg);
+  background-size: cover;
+}
+.carousel-img-2{
+  background: url(../img/students.jpg);
+  background-size: cover;
+}
+
+.carousel-img-3{
+  background: url(../img/kadambari5.jpg);
+  background-size: cover;
+}
+.carousel-img-4{
+  background: url(../img/khs.jpg);
+  background-size: cover;
+}
+
+.fab{
+  font-size: $icon-size;
+}
+
+
+// .form-group {
+//     margin-bottom: 1rem;
+// }
+
+.bg-image{
+  background: url("../img/nice.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+// .bg-image2{
+//   background: url("../img/optic.gif");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-attachment: fixed;
+// }
+
+#contact-header{
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+  height: 200px;
+  padding-top: 50px;
+  background-attachment: fixed;
+}
+
+#support-header{
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+  height: 200px;
+  padding-top: 50px;
+  background-attachment: fixed;
+}
+
+
+@media(max-width:991px){
+.nav-item{
+ padding: 0 !important;
+ }
+ #showcase{
+     .navbar-brand {
+
+    margin-right: 1rem;
+    font-size: 1rem;
+
+}
+   }
+
+.carousel-item{
+  height: 350px;
+}
+.carousel-caption{
+  h3{
+    font-size: 1.3rem !important;
+  }
+  h5{
+    font-size: 1.15rem !important;
+  }
+}
+#icon{
+  h2{
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .fab{
+    font-size: 35px;
+  }
+}
+ #copy-wright{
+   font-size: 12px;
+   padding-top: 8px;
+   margin-bottom: 0;
+   .pb-4, .py-4 {
+   padding-bottom: 0 !important;
+   padding-top: 0 !important;
+}
+ }
+
+ #header{
+   h2{
+     font-size: 1.5rem !important;
+   }
+ }
+
+}
+
+
+@media(max-width:767px){
+  .nav-item{
+    padding-left:0 !important;
+  }
+  .carousel-item{
+    .w-100 {
+    width: 100% !important;
+}
+  }
+
+  #copy-wright{
+    text-align: center;
+    .pb-4, .py-4 {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+  }
+
+  #header{
+    h2{
+      font-size: 1rem !important;
+    }
+  }
+
+}
+@media(max-width:400px){
+  #header{
+    h2{
+      font-size: .8rem !important;
+    }
+
+}

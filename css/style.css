@@ -1,0 +1,167 @@
+#header {
+  background: #008000;
+}
+
+.navbar {
+  background: #008000;
+}
+.navbar .nav-item {
+  padding-left: 1em;
+}
+.navbar .nav-item .nav-link {
+  text-transform: uppercase;
+}
+.navbar .dropdown-menu .dropdown-item {
+  text-transform: uppercase;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-img-1 {
+  background: url(../img/kadambari.jpg);
+  background-size: cover;
+}
+
+.carousel-img-2 {
+  background: url(../img/students.jpg);
+  background-size: cover;
+}
+
+.carousel-img-3 {
+  background: url(../img/kadambari5.jpg);
+  background-size: cover;
+}
+
+.carousel-img-4 {
+  background: url(../img/khs.jpg);
+  background-size: cover;
+}
+
+.fab {
+  font-size: 50px;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+
+.bg-image {
+  background: url("../img/nice.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* .bg-image2{
+  background: url("../img/optic.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+
+.box {
+  width: 100%;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 0 auto;
+}
+.captcha {
+  width: 50%;
+  background: rgb(98, 30, 233);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#contact-header {
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+  height: 200px;
+  padding-top: 50px;
+  background-attachment: fixed;
+}
+#support-header {
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+  height: 200px;
+  padding-top: 50px;
+  background-attachment: fixed;
+}
+
+@media (max-width: 991px) {
+  .nav-item {
+    padding: 0 !important;
+  }
+  #showcase .navbar-brand {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  .carousel-item {
+    height: 350px;
+  }
+  .carousel-caption h3 {
+    font-size: 1.3rem !important;
+  }
+  .carousel-caption h5 {
+    font-size: 1.15rem !important;
+  }
+  #icon h2 {
+    font-size: 1.5rem;
+  }
+  #icon p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  #icon .fab {
+    font-size: 35px;
+  }
+  #copy-wright {
+    font-size: 12px;
+    padding-top: 8px;
+    margin-bottom: 0;
+  }
+  #copy-wright .pb-4,
+  #copy-wright .py-4 {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+  #header h2 {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important;
+  }
+  .carousel-item .w-100 {
+    width: 100% !important;
+  }
+  #copy-wright {
+    text-align: center;
+  }
+  #copy-wright .pb-4,
+  #copy-wright .py-4 {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+  #header h2 {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #header h2 {
+    font-size: 0.8rem !important;
+  }
+}
